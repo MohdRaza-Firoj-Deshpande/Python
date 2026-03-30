@@ -125,3 +125,23 @@ for i in range(11):
     sum=sum+i
 
 print(sum)
+
+
+print("----")
+
+## Example- Prime numbers between 1 and 100
+
+for num in range(1,101):
+    if num > 1:
+        for i in range(2,num):
+            if num%i==0:
+                break
+        else:
+            print(num)   
+
+
+"""
+Conclusion:
+Loops are powerful constructs in Python that allow you to execute a block of code multiple times. 
+By understanding and using for and while loops, along with loop control statements like break, continue, and pass, you can handle a wide range of programming tasks efficiently.
+"""            

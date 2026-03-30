@@ -154,8 +154,8 @@ print("Bonus Amount: ${:.2f}".format(bonus_amount))
 stored_name = 'Admin'
 stored_password = 'Admin@123'
 
-check_1 = input("Please Enter Username")
-check_2 = input("Please Enter The Passoword")
+check_1 = input("Please Enter Username: ")
+check_2 = input("Please Enter The Passoword: ")
 
 if check_1==stored_name:
     if check_2 ==stored_password:
@@ -163,4 +163,4 @@ if check_1==stored_name:
     else:
         print("Incorrect Password") 
 else:
-    print("Username Not Found")           
+    print("User Not Found")           

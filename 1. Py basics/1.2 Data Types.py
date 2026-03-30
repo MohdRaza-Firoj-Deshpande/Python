@@ -11,20 +11,20 @@ They help in performing correct operations on data.
 Proper use of data types can prevent errors and bugs in the program.
 
 
-Introduction to Data Types
-Importance of Data Types in Programming
-Basic Data Types
-Integers
-Floating-point numbers
-Strings
-Booleans
-Advanced Data Types
-Lists
-Tuples
-Sets
-Dictionaries
-Type Conversion
-Practical Examples
+1.Introduction to Data Types
+2.Importance of Data Types in Programming
+3.Basic Data Types
+4.Integers
+5.Floating-point numbers
+6.Strings
+7.Booleans
+8.Advanced Data Types
+9.Lists
+10.Tuples
+11.Sets
+12.Dictionaries
+13.Type Conversion
+14.Practical Examples
 
 '''
 
