@@ -51,3 +51,36 @@ lowest_grade = min(grades)
 
 print(f"Higest Grade : {higest_grade}")
 print(f"Lowest Grade :{lowest_grade}")
+
+
+"""Example 3: Managing An Inventory
+Use a list to manage inventory items in a store"""
+
+# Managing an inventory
+inventory = ["apples", "bananas", "oranges", "grapes"]
+
+# Adding a new item
+inventory.append("strawberries")
+
+# Removing an item that is out of stock
+inventory.remove("bananas")
+
+# Checking if an item is in stock
+item = "oranges"
+if item in inventory:
+    print(f"{item} are in stock.")
+else:
+    print(f"{item} are out of stock.")
+
+# Printing the inventory
+print("Inventory List:")
+for item in inventory:
+    print(f"- {item}")
+
+
+"""
+Example 4:Collecting User Feedback
+Use a list to collect and analyze user feedback.
+...
+
+"""    
