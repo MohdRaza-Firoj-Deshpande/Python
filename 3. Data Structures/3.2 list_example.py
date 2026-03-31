@@ -51,3 +51,22 @@ lowest_grade = min(grades)
 
 print(f"Higest Grade : {higest_grade}")
 print(f"Lowest Grade :{lowest_grade}")
+
+
+
+
+#Collecting user feedback
+feedback = ["Great service!", "Very satisfied", "Could be better", "Excellent experience","great"]
+
+# Adding new feedback
+feedback.append("Not happy with the service")
+
+# Counting specific feedback
+positive_feedback=sum(1 for comment in feedback if "great" in comment.lower() or "excellent" in comment.lower())
+print(f"Rating:{positive_feedback}")
+
+
+# Printing all feedback
+print("User Feedback:")
+for comment in feedback:
+    print(f"- {comment}")
