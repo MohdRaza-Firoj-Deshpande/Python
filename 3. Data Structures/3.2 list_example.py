@@ -53,6 +53,27 @@ print(f"Higest Grade : {higest_grade}")
 print(f"Lowest Grade :{lowest_grade}")
 
 
+# Managing an inventory
+inventory = ["apples", "bananas", "oranges", "grapes"]
+
+# Adding a new item
+inventory.append("strawberries")
+
+# Removing an item that is out of stock
+inventory.remove("bananas")
+
+# Checking if an item is in stock
+item = "oranges"
+if item in inventory:
+    print(f"{item} are in stock.")
+else:
+    print(f"{item} are out of stock.")
+
+# Printing the inventory
+print("Inventory List:")
+for item in inventory:
+    print(f"- {item}")
+
 
 
 #Collecting user feedback
