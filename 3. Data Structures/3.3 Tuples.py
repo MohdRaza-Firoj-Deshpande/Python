@@ -114,6 +114,7 @@ for sub_tuple in nested_tuple:
     for item in sub_tuple:
         print(item,end=" ")#Printing on the same line (with a space)
     print()
+    
 
 """
  Conclusion

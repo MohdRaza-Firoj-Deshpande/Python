@@ -149,5 +149,5 @@ print(lst3)
 
 ## List Comprehension with function calls
 words = ["hello", "world", "python", "list", "comprehension"]
-check=[len(words) for i in words]
-print(check)
+lengths = [len(word) for word in words]
+print(lengths)  # Output: [5, 5, 6, 4, 13]

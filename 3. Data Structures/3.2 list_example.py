@@ -53,12 +53,6 @@ print(f"Higest Grade : {higest_grade}")
 print(f"Lowest Grade :{lowest_grade}")
 
 
-<<<<<<< HEAD
-"""Example 3: Managing An Inventory
-Use a list to manage inventory items in a store"""
-
-=======
->>>>>>> ab1072838a6e4037131188d814aa24d64a2ff872
 # Managing an inventory
 inventory = ["apples", "bananas", "oranges", "grapes"]
 
@@ -81,14 +75,6 @@ for item in inventory:
     print(f"- {item}")
 
 
-<<<<<<< HEAD
-"""
-Example 4:Collecting User Feedback
-Use a list to collect and analyze user feedback.
-...
-
-"""    
-=======
 
 #Collecting user feedback
 feedback = ["Great service!", "Very satisfied", "Could be better", "Excellent experience","great"]
@@ -105,4 +91,3 @@ print(f"Rating:{positive_feedback}")
 print("User Feedback:")
 for comment in feedback:
     print(f"- {comment}")
->>>>>>> ab1072838a6e4037131188d814aa24d64a2ff872
