@@ -108,13 +108,12 @@ nested_tuple = ((1, 2, 3), ("a", "b", "c"), (True, False))
 print(nested_tuple[0])
 print(nested_tuple[1][2])
 
-
+print("#----#")
 ## iterating over nested tuples
 for sub_tuple in nested_tuple:
     for item in sub_tuple:
-        print(item,end=" ")
+        print(item,end=" ")#Printing on the same line (with a space)
     print()
-
 
 """
  Conclusion
