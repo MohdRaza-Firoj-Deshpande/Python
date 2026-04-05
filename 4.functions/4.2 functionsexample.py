@@ -98,3 +98,14 @@ name ='Aeiou olkjo@#$'
 com=  local_counter(name)
 print(com)
 
+
+#Email address Validation
+import re
+
+def is_email_valid(email):
+    """This function checks if the email is valid."""
+    pattern =  r'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$'
+    return re.match(pattern,email) is not None
+
+print(is_email_valid("joe.doe@gmail.com"))
+print(is_email_valid('joe.doe.,gmail.com'))
