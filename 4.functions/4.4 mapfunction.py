@@ -47,3 +47,12 @@ people=[
 
 get = list(map(get_name,people))
 print(get)
+
+"""
+Conclusion
+The map() function is a powerful tool for applying transformations to iterable data structures. 
+It can be used with regular functions, lambda functions, and even multiple iterables, providing a 
+versatile approach to data processing in Python. By understanding and utilizing map(), you can 
+write more efficient and readable code.
+
+"""
